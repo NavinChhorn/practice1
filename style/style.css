@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(66, 65, 65);
+    width: 35%;
+    margin: auto;
+    margin-top: 30px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.sign-up{
+    width: 30vh;
+    background: rgb(37, 209, 152);
+    padding: 20px;
+    color: white;
+    border: none;
+    font-size: 15px;
+}
+.log-in{
+    width: 30vh;
+    background: gray;
+    color: white;
+    border: none;
+    font-size: 15px;
+}
+
+.tittle{
+    margin-top: 30px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+}
+
+.form-group{
+    display: flex;
+    margin-top: 30px;
+}
+.form-group input:nth-child(1){
+    margin-right: 10px;
+    width: 29vh;
+    height: 30px;
+    background: none;
+    border: none;
+    border: 1px solid gray;
+    color: wheat;
+}
+.form-group input:nth-child(2){
+    margin-left: 10px;
+    width: 28vh;
+    background: none;
+    border: none;
+    border: 1px solid gray;
+    color: wheat;
+
+}
+.email input{
+    width: 60vh;
+    margin-top: 30px;
+    height: 30px;
+    background: none;
+    border: none;
+    border: 1px solid gray;
+    color: wheat;
+}
+.password input{
+    width: 60vh;
+    margin-top: 30px;
+    height: 30px;
+    background: none;
+    border: none;
+    border: 1px solid gray;
+    color: wheat;
+}
+.button-get-start button{
+    width: 60vh;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 50px;
+    font-size: 25px;
+    background: rgb(37, 209, 152);
+    color: white;
+    border: none;
+    font-weight: bold;
+}
